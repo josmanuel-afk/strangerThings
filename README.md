@@ -1,36 +1,27 @@
-StrangerThings
+Stranger Things: The Wall Challenge
+"Right here. Tell me where you are."
+Un juego de desafío en tiempo real inspirado en la atmósfera de suspenso de Stranger Things. ¿Podrás descifrar los mensajes antes de que las luces se apaguen?
 
-Juego de desafío en tiempo real inspirado en una atmósfera de suspenso, desarrollado con tecnologías modernas de frontend.
+🕹️ El Juego
+Este proyecto recrea la tensión de la comunicación con el "Upside Down". El jugador debe interactuar con un sistema de letras dinámicas bajo presión constante. No es solo un juego de velocidad, sino de nervios de acero.
 
-React · TypeScript · Vite
+Características Principales
+Atmósfera Inmersiva: Estética visual retro y efectos de parpadeo estilo "suspense".
 
-Características
-Jugabilidad
+Música Continua: Audio ambiental que mantiene la tensión durante toda la partida.
 
-• Sistema de cuenta regresiva en tiempo real
+Dificultad Evolutiva: Los niveles aumentan la complejidad y reducen el tiempo de respuesta.
 
-• Dificultad progresiva por niveles
+Motor Reactivo: Interfaz construida para responder instantáneamente a cada interacción.
 
-• Renderizado dinámico de letras en pantalla
+🛠️ Mecánicas de Juego
+Sistema de Cuenta Regresiva: Rondas cronometradas que exigen rapidez. Si el tiempo llega a cero, el portal se cierra (Game Over).
 
-• Estados de victoria y Game Over
+Renderizado Dinámico: Las letras se iluminan y generan secuencialmente utilizando el estado de React.
 
-• Efectos visuales con estilo de suspenso
+Gestión de Niveles: Progresión lógica donde cada victoria desbloquea un desafío más oscuro.
 
-• Música ambiental en reproducción continua
-
-Mecánicas del Juego
-
-• Progresión basada en niveles
-
-• Rondas cronometradas con reinicio automático
-
-• Gestión de estado con React Hooks
-
-• Sistema dinámico de generación de letras
-
-• Actualización reactiva de la interfaz según el estado del juego
-
+Feedback Visual: Actualizaciones de UI en tiempo real según los aciertos o errores del usuario.
 
 Tecnologías Utilizadas
 Frontend
@@ -39,6 +30,5 @@ React
 TypeScript
 Vite
 
-Inspiración
-
-El proyecto está inspirado en la escena de la primera temporada donde un personaje se comunica a través de letras iluminadas en la pared. El juego recrea esa sensación de tensión y urgencia mediante interacciones contrarreloj y retroalimentación visual dinámica
+🌑 Inspiración
+Este proyecto nace como tributo a la primera temporada de Stranger Things. El objetivo era capturar la urgencia de Joyce al intentar comunicarse con Will a través de las luces en la pared, transformando esa narrativa en una mecánica de juego de "reacción y memoria".
