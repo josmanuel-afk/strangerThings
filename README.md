@@ -8,19 +8,29 @@ Características
 Jugabilidad
 
 • Sistema de cuenta regresiva en tiempo real
+
 • Dificultad progresiva por niveles
+
 • Renderizado dinámico de letras en pantalla
+
 • Estados de victoria y Game Over
+
 • Efectos visuales con estilo de suspenso
+
 • Música ambiental en reproducción continua
 
 Mecánicas del Juego
 
 • Progresión basada en niveles
+
 • Rondas cronometradas con reinicio automático
+
 • Gestión de estado con React Hooks
+
 • Sistema dinámico de generación de letras
+
 • Actualización reactiva de la interfaz según el estado del juego
+
 
 Tecnologías Utilizadas
 Frontend
