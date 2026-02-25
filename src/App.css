@@ -1,0 +1,474 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+   outline: none;
+}
+
+
+.bg{
+    width: 100%;
+    height: 100%;
+    display: block;
+     object-fit: cover;
+}
+
+.begnaContainer{
+    width: 100%;
+    height: auto;
+    border: yellow solid 2px;
+}
+
+
+
+/** level 1 **/
+.begnaI {
+    width: 35rem;
+    height: 600px;
+    z-index: 2; 
+    position: absolute;
+    top:145px;
+}
+.dermagorognD {
+    width: 850px;
+    height: 600px;
+    z-index: 2; 
+    position: absolute;
+    top:198px;
+    left: 950px;
+    font-size: 25px;
+}
+
+
+
+/** level 2 **/
+.begnaPared{
+    width: 45rem;
+    height: 600px;
+    z-index:2; 
+    position: absolute;
+    top:85px;
+    left: 950px;
+    cursor: pointer;
+}
+.dermagorognI {
+    width: 850px;
+    height: 600px;
+    z-index: 2; 
+    position: absolute;
+    top:198px;
+    left: -345px;
+}
+
+
+/*** level 3**/
+.dermagordonsentado{
+     width: 35rem;
+    height: 600px;
+    z-index: 2; 
+    position: absolute;
+    top:5px;
+    left: -15px;
+}
+
+.dermagorgonTecho{
+     width: 850px;
+    height: 600px;
+    z-index: 2; 
+    position: absolute;
+    top:-50px;
+    left: 875px;
+}
+
+
+
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+
+}
+
+.Infocontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    z-index: 2;
+  
+}
+.level1Container{
+    width: 1400px;
+    height: 550px;
+    
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userInfo{
+    border :2px solid black;
+    border-radius:  25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5) ;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 800px;
+    height: 350px;
+    text-align: center;
+    
+
+}
+.info-time{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    gap:12px;
+    margin-top: 20px;
+}
+.userInfo input{
+  width:70%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+.userInfo label{
+        font-size:2rem;
+
+}
+
+
+
+.paginacion{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 45px;
+}
+
+.paginacion button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b333b;
+    color: white;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+.board{
+    margin: -65px auto;
+    width: 500px;
+    height: 380px;
+   
+}
+
+
+.answers{
+    font-size: 18px;
+    color: tomato;
+    position: absolute;
+    right: 590px;
+    top: -12px;
+    
+}
+
+
+.containerLetter{
+    width: 100%;
+    height: auto;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.letter{
+    width:auto;
+    padding: 2px;
+    color: rgba(150, 28, 24, 0.5);
+        background-color: rgba(58, 39, 38, 0.5);
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(150, 28, 24, 0.5);
+    display: flex;
+    justify-content: center;    
+    cursor: pointer;
+
+}
+
+.letter.active{
+    box-shadow: 0px 0px 5px white;
+}
+
+
+
+
+
+.dialogDermagorgon{ 
+    width: 220px;
+    height: auto;
+    z-index: 1000; 
+    position: absolute;
+    top:180px;
+    left: 780px;
+    font-size: 25px;
+    color: white;
+}
+
+
+.dialogContainer {
+    position: absolute;
+    top: 145px;
+    left: 185px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: auto;
+     z-index: 1000;
+}
+
+.descripcion {
+    font-size: 1.5rem;
+    width: 280px;
+    height: auto;
+}
+
+
+
+
+/** Timers **/      
+
+.timers{
+    font-size: 1.5rem;
+    color: tomato;
+    width: 85px;
+}
+
+
+
+/**gamer status */
+.error{
+    border: 1px solid red;
+    color: white;
+    width: 220px;
+    font-size: 1.5;
+    padding: 5px;
+    border-radius: 15px;
+    position: absolute;
+    top: 280px;
+    right: 550px;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    background-color: tomato;
+}
+
+.answersCorrect{
+     border: 1px solid green;
+    color: white;
+    width: 220px;
+    font-size: 1.5;
+    padding: 5px;
+    border-radius: 15px;
+    position: absolute;
+    top: 280px;
+    right: 550px;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    background-color: green;
+
+}
+
+
+/**gamer over */
+
+
+.gameover {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.gameover-container {
+  text-align: center;
+  padding: 40px 60px;
+  border: 2px solid red;
+  border-right-width: 5px;
+clip-path: polygon(100% 0%, 98% 50%, 100% 100%, 51% 97%, 0% 100%, 2% 53%, 0% 0%, 49% 3%);
+  animation: fadeIn 0.6s ease-in-out;
+  width: 745px;
+  height: 300px;
+  background-image: url("./assets/bg-gamer-over.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gameover-title {
+  font-size: 3rem;
+  color: red;
+  text-shadow: 0 0 10px red, 0 0 20px darkred;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.gameover-sub {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.reintentar {
+  background: transparent;
+  border: 2px solid red;
+  color: red;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.reintentar:hover {
+  background: red;
+  color: black;
+  box-shadow: 0 0 15px red;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+/*timers over*/
+
+
+.timeOver{
+    color: white;
+    width: 320px;
+    font-size: 1.5;
+    padding: 5px;
+    border-radius: 15px;
+    position: absolute;
+    top: 290px;
+    right: 420px;
+    transform: translate(-50%, -50%);
+    z-index: 15;
+    background-color: rgb(161, 164, 161);
+}
+
+
+.banner{
+    position:  fixed;
+    color: red;
+    font-size: 75px;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    overflow:hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(2px);
+}
+
+
+
+
+/*winner*/
+
+
+.winner-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.winner-box {
+  text-align: center;
+  padding: 60px 80px;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 40px red;
+  animation: winnerFade 0.8s ease-out;
+}
+
+.winner-title {
+  font-size: 3.5rem;
+  color: red;
+  text-shadow: 0 0 15px gold, 0 0 30px gold;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  animation: glow 1.5s infinite alternate;
+}
+
+.winner-sub {
+  color: #ccc;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+}
+
+.winner-btn {
+  background: red;
+  border: none;
+  padding: 12px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.winner-btn:hover {
+  background: red;
+  box-shadow: 0 0 20px gold;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px gold;
+  }
+  to {
+    text-shadow: 0 0 30px gold, 0 0 50px orange;
+  }
+}
+
+@keyframes winnerFade {
+  from {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
