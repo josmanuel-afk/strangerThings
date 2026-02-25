@@ -1,7 +1,5 @@
 Stranger Things: The Wall Challenge
 
-"Right here. Tell me where you are."
-
 Un juego de desafío en tiempo real inspirado en la atmósfera de suspenso de Stranger Things. ¿Podrás descifrar los mensajes antes de que las luces se apaguen?
 
 
